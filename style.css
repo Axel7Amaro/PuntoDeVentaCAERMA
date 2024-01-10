@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#productos {
+    width: 60%;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#carrito {
+    width: 30%;
+    background-color: #151753;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#lista-carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#buscador {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#search {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+body {
+    background-color: #001f3f; /* Azul marino para el cuerpo */
+    color: #ffffff; /* Texto en blanco en el cuerpo */
+}
+
+header {
+    background-color: #001f3f; /* Azul marino para el encabezado */
+    color: #ffffff; /* Texto en blanco en el encabezado */
+    padding: 10px; /* Espaciado interno para el encabezado */
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #3498db; /* Color de fondo para los botones */
+    color: #ffffff; /* Texto en blanco en los botones */
+    padding: 5px 10px; /* Espaciado interno para los botones */
+    margin: 5px; /* Margen entre los botones */
+}
+
+/* Estilos específicos para el botón de "Quitar del Carrito" */
+button.quitar-carrito {
+    background-color: #e74c3c; /* Color de fondo diferente para este botón */
+}
+
